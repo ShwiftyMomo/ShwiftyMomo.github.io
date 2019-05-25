@@ -1,6 +1,7 @@
 let a;
 function setup() {
-  createCanvas(800, 800);
+  let canvas=createCanvas(800, 800);
+  canvas.parent("game3")
   fill(random(255),random(255),random(255))
   background(random(255),random(255),random(255))
   //creating our array

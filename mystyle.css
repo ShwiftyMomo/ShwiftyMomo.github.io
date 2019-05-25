@@ -28,9 +28,12 @@ p {
         color: #000000;
         margin-bottom: 5px;
         margin-left: 25%;
-        margin-right: 25%;
-        background: content-box
+        margin-right: 25%
     }
+
+span {
+       font-size: 15pt; 
+}
 
 a {
         text-align: center

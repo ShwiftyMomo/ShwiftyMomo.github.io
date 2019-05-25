@@ -1,6 +1,7 @@
 s = 800
 function setup() {
-  createCanvas(s,s);
+  let canvas = createCanvas(s,s);
+  canvas.parent("game1")
 }
 
 function mean(arr) {
