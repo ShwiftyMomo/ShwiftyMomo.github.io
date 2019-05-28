@@ -11,7 +11,7 @@ function setup() {
   }
   }
   let canvas=createCanvas(s, s);
-  canvas.parent("game13")
+  canvas.parent("game14")
 }
 class sphere{
   constructor(a,b,c) {
