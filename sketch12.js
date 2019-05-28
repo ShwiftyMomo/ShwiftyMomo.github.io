@@ -8,7 +8,8 @@ function setup() {
   s=600
   timeX=0
   timeY=0
-  createCanvas(s, s)
+  let canvas=createCanvas(s, s);
+  canvas.parent("game12")
 }
 
 function bar(aList) {

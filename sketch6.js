@@ -2,7 +2,8 @@ let s = 800;
 let Sty = [];
 let temp = 0;
 function setup() {
-  createCanvas(s, s);
+  let canvas=createCanvas(s, s);
+  canvas.parent("game6")
   for (i=0; i<50;i++) {
   	Sty.push(new Boba());
   }

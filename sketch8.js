@@ -2,7 +2,8 @@ let i, b, m;
 
 function setup() {
   // create canvas
-  createCanvas(300, 800);
+  let canvas=createCanvas(800, 800);
+  canvas.parent("game8")
   background(400,100,000)
 
   i = createInput();

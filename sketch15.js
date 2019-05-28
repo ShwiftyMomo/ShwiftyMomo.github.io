@@ -3,7 +3,8 @@ let g = []
 let w = 15
 let Lz = 8
 function setup() {
-  createCanvas(s,s);
+  let canvas=createCanvas(s, s);
+  canvas.parent("game13")
   background(220);
   for (i=0;i<Lz;i++) {
     let K = new thing();

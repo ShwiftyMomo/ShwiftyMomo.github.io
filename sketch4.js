@@ -6,7 +6,7 @@ function setup() {
   C.push(new Corn(s))
   }
   let canvas=createCanvas(s, s);
-  canvas.parent("game2")
+  canvas.parent("game4")
 }
 
 class Corn{

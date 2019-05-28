@@ -10,7 +10,8 @@ function setup() {
   R.push(new sphere(100*i,100*j,random(100)))
   }
   }
-  createCanvas(s, s)
+  let canvas=createCanvas(s, s);
+  canvas.parent("game13")
 }
 class sphere{
   constructor(a,b,c) {

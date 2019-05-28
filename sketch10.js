@@ -2,7 +2,8 @@ let s1 = 800
 let s2 = 800
 var alphabet=      ["a","a","a","b","c","d","e","e","e","e","f","g","h","i","i","i","j","k","l","m","n","o","o","o","p","q","r","s","t","t","t","u","u","v","w","x","y","z"]
 function setup() {
-  createCanvas(s1,s2)
+  let canvas=createCanvas(s1, s2);
+  canvas.parent("game10")
   background(200,200,200)
   strokeWeight(0)
 }

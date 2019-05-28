@@ -4,7 +4,8 @@ var r = 100
 var theta = 0
 var start = 0
 function setup() {
-  createCanvas(s, s);
+  let canvas=createCanvas(s, s);
+  canvas.parent("game3")
   line(0,0,100,100);
 }
 

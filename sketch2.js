@@ -5,7 +5,8 @@ let numBalls=300;
 let gravity=5;
 let f=9/10;
 function setup() {
-createCanvas(s1, s2);
+let canvas=createCanvas(s1, s2);
+canvas.parent("game2")
 for (let i = 0; i < numBalls; i++) {
 balls[i] = new PopcornBall (
 random(width),

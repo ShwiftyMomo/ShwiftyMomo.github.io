@@ -2,7 +2,8 @@ let s=800;
 let p=0;
 let q=0;
 function setup() {
-  createCanvas(s, s);
+  let canvas=createCanvas(s, s);
+  canvas.parent("game9")
 }
 
 function run() {

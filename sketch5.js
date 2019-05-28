@@ -1,7 +1,8 @@
 var po = 0
 function setup() {
 // create canvas
-createCanvas(800, 800);
+let canvas=createCanvas(800, 800);
+canvas.parent("game2")
 background(141,214,314)
 words = ['obtain the grain', 'destroy world', 'phichadelic colours', 'experement probability']
 button = createButton(words[po]);

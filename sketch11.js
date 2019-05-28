@@ -1,7 +1,7 @@
 let a;
 function setup() {
   let canvas=createCanvas(800, 800);
-  canvas.parent("game3")
+  canvas.parent("game11")
   fill(random(255),random(255),random(255))
   background(random(255),random(255),random(255))
   //creating our array

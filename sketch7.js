@@ -4,7 +4,8 @@ let C;
 let theta;
 function setup() {
   theta=0
-  createCanvas(s, s);
+  let canvas=createCanvas(s, s);
+  canvas.parent("game7")
   C=[random(255),random(255),random(255)]
   for (i=100;i<s-100;i++){
   	B.push(new Bubble(i))
